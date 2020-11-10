@@ -10,7 +10,7 @@ Installing `dlabs.py` is easy, just run `pip install dlabs.py`!
 
 Currently, as of Nov 10th 2020 the API provides 2 routes - this package makes use of them, and as soon as new ones are added, the wrapper will be updated simultaneously.
 
-Below are some simple example cogs using the API wrapper to automatically post stats to Discord Labs posting manually, and fetching bots! (note that `bot` is expected to be your instance of discord.py's `commands.Bot` or `commands.AutoShardedBot`)
+Below are some simple example cogs using the API wrapper along with `discord.py` to automatically post stats to Discord Labs, post manually, and fetch bots! (note that `bot` is expected to be your instance of discord.py's `commands.Bot` or `commands.AutoShardedBot`)
 
 ```py
 import dlabs

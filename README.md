@@ -20,7 +20,7 @@ from discord.ext import commands
 class DiscordLabs(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.discord_labs = dlabs.Client(bot, token="YOUR DISCORD LABS TOKEN", autopost=True)
+        self.discord_labs = dlabs.Client(bot=self.bot, token="YOUR DISCORD LABS TOKEN", autopost=True)
         
     
 def setup(bot):
@@ -37,7 +37,7 @@ from discord.ext import commands
 class DiscordLabs(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.discord_labs = dlabs.Client(bot, token="YOUR DISCORD LABS TOKEN")
+        self.discord_labs = dlabs.Client(bot=self.bot, token="YOUR DISCORD LABS TOKEN")
         
         
      @commands.command()
